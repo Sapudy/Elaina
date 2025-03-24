@@ -2,16 +2,16 @@ let fs = require('fs')
 function pickRandom(list) {
 	return list[Math.floor(list.length * Math.random())]
 }
-global.owner = ['6285874068202','6281999284127'] // Put your number here
+global.owner = ['6281217222953','6281217222953'] // Put your number here
 global.mods = JSON.parse(fs.readFileSync('./src/mods.json')) // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit // Premium user has unlimited limit
 global.link = JSON.parse(fs.readFileSync('./src/grouplink.json'))
 global.group = link.map((v, i) => `Group ${i + 1}\n${v}`).join('\n\n');
-global.numberowner = '6285874068202'
-global.nameowner = 'KiyoEditz' //Owner name
-global.name = 'Kiyo•Editz™' // owner name for contacts
+global.numberowner = '6281217222953'
+global.nameowner = 'Sapudy' //Owner name
+global.name = 'Sapudy?' // owner name for contacts
 global.namebot = 'Elaina-MD' // bot name 
-global.mail = 'abiandriansyah3@gmail.com' // email or gmail
+global.mail = 'saputrasapudy@gmail.com' // email or gmail
 global.instagram = 'https://www.instagram.com/kiyoeditz'//Instagram 
 //global.community = {
   //game: '120363242705186427@g.us',
@@ -28,11 +28,11 @@ const moment = require('moment-timezone')
 
 ////// ALL of apikey ///////
 //INI WAJIB DI ISI!//
-global.lann = 'XwxIaeoY'
+global.lann = 'Btz-cMFb5'
 //Daftar terlebih dahulu https://api.betabotz.eu.org
 
 //INI OPTIONAL BOLEH DI ISI BOLEH JUGA ENGGA//
-global.btc = 'PjoZNP4j'
+global.btc = 'v8kaiXr5'
 //Daftar https://api.botcahx.eu.org 
 
 global.APIs = { // API Prefix
@@ -56,14 +56,14 @@ global.APIKeys = { // APIKey Here
   'https://api.botcahx.eu.org': 'PjoZNP4j',
   'https://api.alyachan.dev/': 'syah11'
 }
-global.footer = 'ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ Kiyo•Editz™'
+global.footer = 'ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ Sapudy?'
 global.set = {
-    footer: 'ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ Kiyo•Editz™', //another watermark message?
+    footer: 'ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ Sapudy?', //another watermark message?
     
 }
 //global.Func = new (require('./lib/functions')) //just function 
 //global.scrap = new (require('./lib/scrape')) //just scraper 
-global.packname = 'Kiyo•Editz™' // another Watermark 
+global.packname = 'Sapudy?' // another Watermark 
 global.author = '⫹⫺ ᴇʟᴀɪɴᴀ 𝙱𝙾𝚃' //watermark author?
 global.htjava = pickRandom(["乂", "❏", "⫹⫺", "⎔", "✦", "⭔", "⬟"])
 global.pmenus = pickRandom(["乂", "◈", "➭", "ଓ", "⟆•", "⳻", "•", "↬", "◈", "⭑", "ᯬ", "◉", "᭻", "»", "〆", "々", "✗", "♪"])
@@ -73,7 +73,7 @@ global.urlnya = "-" //apa lah
 
 //============= callButtons =============//
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ' //don't change 
-global.phn = '+62 858-7406-8202' //tell me it work 
+global.phn = '+62 812-1722-2953' //tell me it work 
 
 global.multiplier = 69 // The higher, The harder levelup
 
